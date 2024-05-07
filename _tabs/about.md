@@ -3,6 +3,10 @@
 icon: fas fa-info-circle
 order: 4
 ---
+I am a 20 yo cybersecurity enthusiast that like breaking into things and working out at the gym.
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+I hold some certs like the OSCP but this is just the beggining.
+
+Thanks for reading,
+
+duskb1t.
