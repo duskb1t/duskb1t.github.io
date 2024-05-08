@@ -188,7 +188,7 @@ main()
 Executed it, downloading a total of 84 files. Our guesses were right.
 
 ```bash
-python3 [intelligence.py](http://intelligence.py/) -t 10.129.95.154
+python3 intelligence.py -t 10.129.95.154
 
 [+] Downloading PDF files...
 
@@ -355,7 +355,7 @@ C:\>whoami
 intelligence\administrator
 ```
 
-All left is to read the root flag. GGs!
+All that is left is to read the root flag. GGs!
 
 ```
 C:\>type c:\users\administrator\desktop\root.txt
