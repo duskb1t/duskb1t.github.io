@@ -16,7 +16,7 @@ timezone:
 
 title: duskb1t # the main title
 
-tagline: My personal blog # it will display as the sub-title
+tagline: CTF-related stuff and more # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   blog, duskb1t, github
