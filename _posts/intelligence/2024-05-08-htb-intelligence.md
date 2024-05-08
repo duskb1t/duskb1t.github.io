@@ -120,7 +120,7 @@ Those files don’t contain any relevant information. However, we notice that bo
 
 <img src="/assets/img/intelligence/Untitled 3.png" alt="Untitled 3.png" style="width:800px;">
 
-Created a simple Python script that downloads all files with that name rule.
+Created a simple Python script that downloads all files with that name format.
 
 ```python
 import argparse
@@ -185,7 +185,7 @@ def main():
 main()
 ```
 
-Executed it and downloaded a total of 84 files. Our guesses were right.
+Executed it, downloading a total of 84 files. Our guesses were right.
 
 ```bash
 python3 [intelligence.py](http://intelligence.py/) -t 10.129.95.154
@@ -344,7 +344,7 @@ SVC_INT$ is **allowed to delegate** in the Domain Controller. What this means is
 
 <img src="/assets/img/intelligence/Untitled 7.png" alt="Untitled 7.png" style="width:800px;">
 
-That is exactly what we would do by requesting a **silver ticket** with Impacket.
+That is exactly what we will do by requesting a **silver ticket** with Impacket.
 
 I recently discovered that my VM is broken when it comes to Kerberos authentication. I will eventually have to fix it, but for now running the next command in the PwnBox worked just fine. 
 
