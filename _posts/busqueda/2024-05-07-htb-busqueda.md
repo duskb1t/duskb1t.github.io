@@ -5,7 +5,7 @@ categories: [HTB Machines]
 tags: [Easy, Linux, HTB]
 ---
 
-**Busqueda** is an easy HTB machine where we can achieve RCE by leveraging a **command injection CVE**. Following this, we gain root access by exploiting a **path hijacking vulnerability** uncovered through enumeration.
+**Busqueda** is an easy HTB machine where we can achieve RCE by leveraging a **command injection CVE**. Following this, we gain root access by exploiting a **path hijacking vulnerability** uncovered through enumeration in a Gitea virtual host subdomain.
 
 <img src="/assets/img/busqueda/Untitled.png" alt="Untitled.png" style="width:600px;">
 
@@ -65,7 +65,7 @@ The web page on port TCP/80 appears to offer a searching functionality with diff
 
 <img src="/assets/img/busqueda/Untitled 1.png" alt="Untitled 1.png" style="width:800px;">
 
-There is a Searchor version at the bottom.
+There is a Searchor's version at the bottom.
 
 <img src="/assets/img/busqueda/Untitled 2.png" alt="Untitled 2.png" style="width:800px;">
 
@@ -244,7 +244,7 @@ svc@busqueda:/var/www/app/.git$ cat /etc/apache2/sites-enabled/000-default.conf
 </VirtualHost>
 ```
 
-Checking sudoers permissions of svc user with the gathered password shows something of interest.
+Checking Svc's sudoers permissions with the gathered password shows something of interest.
 
 ```bash
 svc@busqueda:/var/www/app/.git$ sudo -l

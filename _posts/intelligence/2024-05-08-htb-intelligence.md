@@ -5,7 +5,7 @@ categories: [HTB Machines]
 tags: [Medium, Windows, HTB]
 ---
 
-**Intelligence** is a medium HTB machine that begins with a crucial enumeration phase to discover **critical files that are exposed** in the web server. Next, you will need perform a **DNS poisoning attack** to move laterally. Privilege escalation to Domain Admins is possible because of **high AD privileges and weak passwords**.
+**Intelligence** is a medium HTB machine that begins with a crucial enumeration phase to discover **critical files that are exposed** in the web server. However, we will have to solve an easy coding challenge to access that resources. Next, you will need perform a **DNS poisoning attack** to move laterally. Privilege escalation to Domain Admins is possible because of high AD privileges, **being able to read a Group Managed Service Account (GMSA) password** that it **allowed to delegate** to the Domain Controller machine account.
 
 <img src="/assets/img/intelligence/Untitled.png" alt="Untitled.png" style="width:600px;">
 

