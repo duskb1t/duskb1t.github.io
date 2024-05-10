@@ -402,7 +402,7 @@ evil-winrm -u administrator -c dusk.crt -k dusk.key -i 10.129.228.253 --ssl
 
 Uploaded the PFX certificate and [Rubeus](https://github.com/GhostPack/Rubeus) to the target box.
 
-```bash
+```
 *Evil-WinRM* PS C:\Users\Ryan.Cooper\Documents> ls
   Directory: C:\Users\Ryan.Cooper\Documents
 	Mode                LastWriteTime         Length Name
