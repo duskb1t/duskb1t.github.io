@@ -2,7 +2,7 @@
 title: 'HTB Escape - Medium'
 date: 2024-05-10 02:00:00 +0000
 categories: [HTB Machines]
-tags: [Easy, Linux, HTB]
+tags: [Medium, Linux, HTB]
 ---
 **Escape** is a medium HTB machine where you can access a MSSQL server with **credentials gathered from exposed files on shares**. There are **SQL logs containing a clear-text password** and a user that we can leveraged to move laterally. Privilege escalation to Domain Admins is achievable by exploiting a **certificate template** that is **vulnerable to ESC1**.
 

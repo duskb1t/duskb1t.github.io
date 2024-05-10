@@ -2,9 +2,9 @@
 title: 'VL Delegate - Medium'
 date: 2024-05-10 15:00:00 +0000
 categories: [VL Machines]
-tags: [Delegate, Windows, VL]
+tags: [Medium, Windows, VL]
 ---
-**Delegate** is a medium VL machine where you need to **enumerate SMB shares** to gain credentials. From there, it is possible to perform a **targeted kerberoast** attack against a user by **abusing GenericWrite object permissions**. The privilege escalation to Domain Admins is achievable by exploiting the **SeEnableDelegationPrivilege** from the compromised user, creating a machine account with **unconstrained delegation** to subsequently do a **DC Sync attack** and steal the domain administrator hash.
+**Delegate** is a medium VL machine where you need to **enumerate SMB shares** to gain credentials. From there, it is possible to perform a **targeted kerberoast** attack against a user by **abusing GenericWrite object permissions**. The privilege escalation to Domain Admins is achievable by exploiting the **SeEnableDelegationPrivilege** of the compromised user, creating a machine account with **unconstrained delegation** to subsequently do a **DC Sync attack** and steal the domain administrator hash.
 
 <img src="/assets/img/delegate/Untitled.png" alt="Untitled.png" style="width:400px;">
 
