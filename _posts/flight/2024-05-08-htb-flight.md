@@ -7,7 +7,7 @@ tags: [Hard, Windows, HTB]
 
 **Flight** is a hard HTB machine that involves exploiting **improper input sanitization** in a URL parameter to obtain credentials. Subsequently, there's extensive **lateral movement** by poisoning and abusing SMB shares, aligning pretty well with the thematic of the box. Finally, privilege escalation to SYSTEM is achievable through exploiting **write permissions** of a compromised user in an **internal web service** that is running as a high-privileged machine account.
 
-<img src="/assets/img/flight/Untitled.png" alt="Untitled 1.png" style="width:600px;">
+<img src="/assets/img/flight/Untitled.png" alt="Untitled.png" style="width:600px;">
 
 # Reconnaissance
 
