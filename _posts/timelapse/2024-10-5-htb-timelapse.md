@@ -4,7 +4,7 @@ date: 2024-05-10 19:00:00 +0000
 categories: [HTB Machines]
 tags: [Easy, Linux, HTB]
 ---
-**Timelapse** is an easy HTB machine that begins with **critical files exposed in the SMB shares**. One of them contains a PFX certificate that can be used to get a foothold, but not without first cracking them. Lateral Movement is possible due to **clear-text credentials hidden in PowerShell history logs**. To finish, the user we compromised can read the Domain Controller local administrator password by **exploiting the ReadLAPSPassword object permission**.
+**Timelapse** is an easy HTB machine that begins with **critical files exposed in the SMB shares**. One of them is a PFX certificate that can be used to get a foothold, but not without first cracking it. Lateral Movement is possible due to **clear-text credentials hidden in PowerShell history logs**. To finish, the user we compromised can read the Domain Controller local administrator password by **exploiting the ReadLAPSPassword object permission**.
 
 <img src="/assets/img/timelapse/Untitled.png" alt="Untitled.png" style="width:600px;">
 
