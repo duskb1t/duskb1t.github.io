@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
+icon: fas fa-flag-checkered
 order: 4
 ---
 This section of the blog is designated as my roadmap to become a Pentester.
