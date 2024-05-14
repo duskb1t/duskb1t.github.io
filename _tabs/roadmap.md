@@ -5,7 +5,7 @@ order: 4
 ---
 This section of the blog is designated as my roadmap to become a Pentester.
 
-Last updated 2024-05-12.
+Last updated 2024-05-14.
 
 # Certifications
 
@@ -13,7 +13,6 @@ Last updated 2024-05-12.
 * OSEP (Scheduled)
 
 # Courses 
-
 
 |    Course    | Provider | Language | Status | Review Rating |
 |--------------|----------|----------|--------|----------------|
@@ -24,4 +23,4 @@ Last updated 2024-05-12.
 | Offensive Security Certified Expert (OSEP) | OffSec | English | Completed  | Recommended |
 | Certified Penetration Tester Specialist (CPTS) | HTB Academy | English | In progress  | - |
 
-Review ratings -> \[ Terrible - Mid - Recommended - Excellent - Masterpiece\]
+Review criteria: \[ Terrible - Mid - Recommended - Excellent - Masterpiece \]
