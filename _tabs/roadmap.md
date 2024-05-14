@@ -14,13 +14,14 @@ Last updated 2024-05-12.
 
 # Courses 
 
-Review ratings: \[Not Recommended - Mid - Recommended - Highly Recommended - Excellent\]
 
 |    Course    | Provider | Language | Status | Review Rating |
 |--------------|----------|----------|--------|----------------|
 | Introduction To Linux | Hack4u | Spanish | Completed  | Excellent |
 | Google Cybersecurity Professional Certificate | Coursera | English | Completed  | Recommended |
-| Offensive Security Certified Professional (OSCP) | OffSec | English | Completed  | Highly Recommended |
-| Offensive Python | Hack4u | Spanish | Completed  | Highly Recommended |
+| Offensive Security Certified Professional (OSCP) | OffSec | English | Completed  | Recommended |
+| Offensive Python | Hack4u | Spanish | Completed  | Recommended |
 | Offensive Security Certified Expert (OSEP) | OffSec | English | Completed  | Recommended |
 | Certified Penetration Tester Specialist (CPTS) | HTB Academy | English | In progress  | - |
+
+Review ratings -> \[ Terrible - Mid - Recommended - Excellent - Masterpiece\]
