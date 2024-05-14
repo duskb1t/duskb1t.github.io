@@ -10,10 +10,13 @@ Last updated 2024-05-12.
 # Certifications
 
 * OSCP ✅
+* OSEP (Scheduled)
 
 # Courses 
 
-|    Course    | Provider | Language | Status | Recommendation |
+Review ratings: \[Not Recommended - Mid - Recommended - Highly Recommended - Excellent\]
+
+|    Course    | Provider | Language | Status | Review Rating |
 |--------------|----------|----------|--------|----------------|
 | Introduction To Linux | Hack4u | Spanish | Completed  | Excellent |
 | Google Cybersecurity Professional Certificate | Coursera | English | Completed  | Recommended |
@@ -21,4 +24,3 @@ Last updated 2024-05-12.
 | Offensive Python | Hack4u | Spanish | Completed  | Highly Recommended |
 | Offensive Security Certified Expert (OSEP) | OffSec | English | Completed  | Recommended |
 | Certified Penetration Tester Specialist (CPTS) | HTB Academy | English | In progress  | - |
-

@@ -108,11 +108,11 @@ Performed a **cluster bomb attack with Intruder** and got a 302 status code.
 
 <img src="/assets/img/nibbles/Untitled 6.png" alt="Untitled 6.png" style="width:800px;">
 
-**Tip**: remove the scrap words that cEWL collected and you won’t have to wait for unlock or restart.
+**Tip**: remove the arbitrary words that cEWL collected, so you won’t have to restart the machine or wait for accounts to unlock.
 
 <img src="/assets/img/nibbles/Untitled 7.png" alt="Untitled 7.png" style="width:800px;">
 
-We have successfully logged on as administrators.
+We have successfully logged in as administrators.
 
 <img src="/assets/img/nibbles/Untitled 8.png" alt="Untitled 8.png" style="width:800px;">
 
