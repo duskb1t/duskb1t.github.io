@@ -245,7 +245,7 @@ $testuser = "test";
 
 <img src="/assets/img/bountyhunter/Untitled 11.png" alt="Untitled 10.png" style="width:800px;">
 
-Connected over SSH as the ‘developer’ user by using the obtained password.
+Connected over SSH as ‘development’ by using the obtained password.
 
 ```
 ssh development@10.129.219.22
@@ -277,7 +277,7 @@ User development may run the following commands on bountyhunter:
     (root) NOPASSWD: /usr/bin/python3.8 /opt/skytrain_inc/ticketValidator.py
 ```
 
-This is the script source code if you wanna inspect it by yourself. Otherwise scroll down.
+This is the script source code, if you wanna inspect it by yourself. Otherwise scroll down.
 
 ```python
 #Skytrain Inc Ticket Validation System 0.1
