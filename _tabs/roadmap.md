@@ -14,10 +14,10 @@ Last updated 2024-05-19.
 
 # Courses 
 
-|    Course    | Provider | Language | Status | Rating |
+|    Course    | Provider | Language | Status | Personal Rating |
 |--------------|----------|----------|--------|----------------|
 | Introduction To Linux | Hack4u | Spanish | Completed  | 100/100 |
-| Google Cybersecurity Professional Certificate | Coursera | English | Completed  | 65/100 |
+| Google Cybersecurity Professional Certificate | Coursera | English | Completed  | 70/100 |
 | Offensive Security Certified Professional (OSCP) | OffSec | English | Completed  | 85/100 |
 | Offensive Python | Hack4u | Spanish | Completed  | 90/100 |
 | Offensive Security Certified Expert (OSEP) | OffSec | English | Completed  | 85/100 |
