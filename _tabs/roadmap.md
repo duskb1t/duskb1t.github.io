@@ -5,7 +5,7 @@ order: 4
 ---
 This section of the blog is designated as my roadmap to become a Pentester.
 
-Last updated 2024-05-19.
+Last updated 2024-05-23.
 
 # Certifications
 
@@ -14,11 +14,11 @@ Last updated 2024-05-19.
 
 # Courses 
 
-|    Course    | Provider | Language | Status | Personal Rating |
-|--------------|----------|----------|--------|----------------|
-| Introduction To Linux | Hack4u | Spanish | Completed  | 100/100 |
-| Google Cybersecurity Professional Certificate | Coursera | English | Completed  | 70/100 |
-| Offensive Security Certified Professional (OSCP) | OffSec | English | Completed  | 85/100 |
-| Offensive Python | Hack4u | Spanish | Completed  | 90/100 |
-| Offensive Security Certified Expert (OSEP) | OffSec | English | Completed  | 85/100 |
-| Certified Penetration Tester Specialist (CPTS) | HTB Academy | English | In progress  | - |
+| Course                                                 | Provider     | Language | Status       | Completion |
+|--------------------------------------------------------|--------------|----------|--------------|------------|
+| Introduction to Linux                                  | Hack4u       | Spanish  | Completed    | Aug 2023   |
+| Google Cybersecurity Professional Certificate          | Coursera     | English  | Completed    | Aug 2023   |
+| Offensive Security Certified Professional (OSCP)       | OffSec       | English  | Completed    | Jan 2024   |
+| Offensive Python                                       | Hack4u       | Spanish  | Completed    | Apr 2024   |
+| Offensive Security Certified Expert (OSEP)             | OffSec       | English  | Completed    | Apr 2024   |
+| Certified Penetration Tester Specialist (CPTS)         | HTB Academy  | English  | In Progress  | -          |
