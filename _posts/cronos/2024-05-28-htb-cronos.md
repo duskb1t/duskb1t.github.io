@@ -137,7 +137,7 @@ import argparse
 import requests
 import sys
 
-def bypass_login(target, ):
+def bypass_login(target):
     url = f'http://{target}'
     headers = {
         'Host': 'admin.cronos.htb',
