@@ -21,4 +21,4 @@ Last updated 2024-05-23.
 | Offensive Security Certified Professional (OSCP)       | OffSec       | English  | Completed    | Jan 2024   |
 | Offensive Python                                       | Hack4u       | Spanish  | Completed    | Apr 2024   |
 | Offensive Security Certified Expert (OSEP)             | OffSec       | English  | Completed    | Apr 2024   |
-| Certified Penetration Tester Specialist (CPTS)         | HTB Academy  | English  | In Progress  | -          |
+| Certified Penetration Tester Specialist (CPTS)         | HTB Academy  | English  | Completed    | May 2024   |
