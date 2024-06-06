@@ -5,7 +5,7 @@ order: 4
 ---
 This section of the blog is designated as my roadmap to become a Pentester.
 
-Last updated 2024-05-23.
+Last updated 2024-06-06.
 
 # Certifications
 
@@ -22,3 +22,9 @@ Last updated 2024-05-23.
 | Offensive Python                                       | Hack4u       | Spanish  | Completed    | Apr 2024   |
 | Offensive Security Certified Expert (OSEP)             | OffSec       | English  | Completed    | Apr 2024   |
 | Certified Penetration Tester Specialist (CPTS)         | HTB Academy  | English  | Completed    | May 2024   |
+
+# More HTB 💚
+
+| Module                                                 | Provider     | Language | Status       | Completion |
+|--------------------------------------------------------|--------------|----------|--------------|------------|
+| Intro to C2 Operations with Sliver                     | HTB Academy  | English  | Completed    | June 2024   |
