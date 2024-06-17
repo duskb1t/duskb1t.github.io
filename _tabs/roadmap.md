@@ -5,12 +5,12 @@ order: 4
 ---
 This section of the blog is designated as my roadmap to become a Pentester.
 
-Last updated 2024-06-06.
+Last updated 2024-06-17.
 
 # Certifications
 
 * OSCP ✅
-* OSEP (Scheduled)
+* OSEP ✅
 
 # Courses 
 
@@ -27,4 +27,4 @@ Last updated 2024-06-06.
 
 | Module                                                 | Provider     | Language | Status       | Completion |
 |--------------------------------------------------------|--------------|----------|--------------|------------|
-| Intro to C2 Operations with Sliver                     | HTB Academy  | English  | Completed    | June 2024   |
+| Intro to C2 Operations with Sliver                     | HTB Academy  | English  | Completed    | June 2024  |
