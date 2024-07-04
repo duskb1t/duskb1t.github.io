@@ -5,12 +5,16 @@ order: 4
 ---
 This section of the blog is designated as my roadmap to become a Pentester.
 
-Last updated 2024-06-17.
+Last updated Jul 04, 2024.
+
+Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHAsWb).
+
+<img src="/assets/img/roadmap/screenshot.png" alt="screenshot.png" style="width:600px;">
 
 # Certifications
 
-* OSCP ✅
-* OSEP ✅
+* OSCP (Mar 20, 2024) ✅
+* OSEP (Jun 13, 2024) ✅
 
 # Courses 
 
@@ -27,4 +31,8 @@ Last updated 2024-06-17.
 
 | Module                                                 | Provider     | Language | Status       | Completion |
 |--------------------------------------------------------|--------------|----------|--------------|------------|
-| Intro to C2 Operations with Sliver                     | HTB Academy  | English  | Completed    | June 2024  |
+| Intro to C2 Operations with Sliver                     | HTB Academy  | English  | Completed    | Jun 2024   |
+| Kerberos Attacks                                       | HTB Academy  | English  | Completed    | Jun 2024   |
+| Dante Pro Lab                                          | HTB Labs     | English  | In Progress  | -          |
+
+
