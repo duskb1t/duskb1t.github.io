@@ -5,11 +5,11 @@ order: 4
 ---
 This section of the blog is designated as my roadmap to become a Pentester.
 
-Last updated Jul 04, 2024.
+Last updated Jul 05, 2024.
 
 Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHAsWb).
 
-<img src="/assets/img/roadmap/screenshot.png" alt="screenshot.png" style="width:600px;">
+<img src="/assets/img/roadmap/screenshot.jpg" alt="screenshot.jpg" style="width:600px;">
 
 # Certifications
 
