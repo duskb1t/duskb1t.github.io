@@ -5,7 +5,7 @@ order: 4
 ---
 This section of the blog is designated as my roadmap to become a Pentester.
 
-Last updated Jul 05, 2024.
+Last updated Jul 07, 2024.
 
 Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHAsWb).
 
@@ -29,10 +29,15 @@ Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHA
 
 # More HTB 💚
 
-| Module                                                 | Provider     | Language | Status       | Completion |
+| Material                                               | Provider     | Language | Status       | Completion |
 |--------------------------------------------------------|--------------|----------|--------------|------------|
 | Intro to C2 Operations with Sliver                     | HTB Academy  | English  | Completed    | Jun 2024   |
 | Kerberos Attacks                                       | HTB Academy  | English  | Completed    | Jun 2024   |
-| Dante Pro Lab                                          | HTB Labs     | English  | In Progress  | -          |
+| Dante Pro Lab                                          | HTB Labs     | English  | 74%          | -          |
+| Intro to Binary Exploitation                           | HTB Labs     | English  | 25%          | -          |
 
+# Pwn College 🤍
 
+| Module                                                 | Provider     | Language | Status       | Completion |
+|--------------------------------------------------------|--------------|----------|--------------|------------|
+| Assembly Refresher                                     | Pwn College  | English  | 25/30        | -          |
