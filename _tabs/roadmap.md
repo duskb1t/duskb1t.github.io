@@ -11,12 +11,12 @@ Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHA
 
 <img src="/assets/img/roadmap/screenshot.jpg" alt="screenshot.jpg" style="width:600px;">
 
-# Certifications
+# Certifications 👨‍🎓
 
 * OSCP (Mar 20, 2024) ✅
 * OSEP (Jun 13, 2024) ✅
 
-# Courses 
+# Courses ✍️
 
 | Course                                                 | Provider     | Language | Status       | Completion |
 |--------------------------------------------------------|--------------|----------|--------------|------------|
@@ -33,10 +33,10 @@ Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHA
 |--------------------------------------------------------|--------------|----------|--------------|------------|
 | Intro to C2 Operations with Sliver                     | HTB Academy  | English  | Completed    | Jun 2024   |
 | Kerberos Attacks                                       | HTB Academy  | English  | Completed    | Jun 2024   |
-| Dante Pro Lab                                          | HTB Labs     | English  | 74%          | -          |
-| Intro to Binary Exploitation                           | HTB Labs     | English  | 25%          | -          |
+| Dante Pro Lab                                          | HTB Labs     | English  | In Progress  | -          |
+| Intro to Binary Exploitation                           | HTB Academy  | English  | In Progress  | -          |
 
-# Pwn College 🤍
+# Pwn College 🥷
 
 | Module                                                 | Provider     | Language | Status       | Completion |
 |--------------------------------------------------------|--------------|----------|--------------|------------|
