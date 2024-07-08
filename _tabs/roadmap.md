@@ -33,11 +33,11 @@ Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHA
 |--------------------------------------------------------|--------------|----------|--------------|------------|
 | Intro to C2 Operations with Sliver                     | HTB Academy  | English  | Completed    | Jun 2024   |
 | Kerberos Attacks                                       | HTB Academy  | English  | Completed    | Jun 2024   |
-| Dante Pro Lab                                          | HTB Labs     | English  | In Progress  | -          |
+| Dante Pro Lab                                          | HTB Labs     | English  | Completed    | Jul 2024   |
 | Intro to Binary Exploitation                           | HTB Academy  | English  | In Progress  | -          |
 
 # Pwn College 🥷
 
 | Module                                                 | Provider     | Language | Status       | Completion |
 |--------------------------------------------------------|--------------|----------|--------------|------------|
-| Assembly Refresher                                     | Pwn College  | English  | 25/30        | -          |
+| Assembly Crash Course                                  | Pwn College  | English  | In Progress  | -          |
