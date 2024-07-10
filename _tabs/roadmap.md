@@ -26,6 +26,7 @@ Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHA
 | Offensive Python                                       | Hack4u       | Spanish  | Completed    | Apr 2024   |
 | Offensive Security Certified Expert (OSEP)             | OffSec       | English  | Completed    | Apr 2024   |
 | Certified Penetration Tester Specialist (CPTS)         | HTB Academy  | English  | Completed    | May 2024   |
+| Certified Bug Bounty Hunter (CBBH)                     | HTB Academy  | English  | In Progress  | -          |
 
 # More HTB 💚
 
@@ -38,6 +39,6 @@ Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHA
 
 # Pwn College 🥷
 
-| Module                                                 | Provider     | Language | Status       | Completion |
+| Material                                               | Provider     | Language | Status       | Completion |
 |--------------------------------------------------------|--------------|----------|--------------|------------|
 | Assembly Crash Course                                  | Pwn College  | English  | In Progress  | -          |
