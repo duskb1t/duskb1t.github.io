@@ -5,7 +5,7 @@ order: 4
 ---
 This section of the blog is designated as my roadmap to become a Pentester.
 
-Last updated Jul 07, 2024.
+Last updated Jul 17, 2024.
 
 Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHAsWb).
 
@@ -41,4 +41,4 @@ Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHA
 
 | Material                                               | Provider     | Language | Status       | Completion |
 |--------------------------------------------------------|--------------|----------|--------------|------------|
-| Assembly Crash Course                                  | Pwn College  | English  | In Progress  | -          |
+| Assembly Crash Course                                  | Pwn College  | English  | Completed    | Jul 2024   |
