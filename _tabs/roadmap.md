@@ -41,4 +41,4 @@ Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHA
 
 | Material                                               | Provider     | Language | Status       | Completion |
 |--------------------------------------------------------|--------------|----------|--------------|------------|
-| Assembly Crash Course                                  | Pwn College  | English  | Completed    | Jul 2024   |
+| Optional Refreshers                                    | Pwn College  | English  | 52/228       | -          |
