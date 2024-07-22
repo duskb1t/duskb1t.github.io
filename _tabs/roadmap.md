@@ -9,7 +9,7 @@ Last updated Jul 17, 2024.
 
 Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHAsWb).
 
-<img src="/assets/img/roadmap/miniatura2_better.png" alt="miniatura2.png" style="width:600px;">
+<img src="/assets/img/roadmap/miniatura2v2.png" alt="miniatura2.png" style="width:600px;">
 
 # Certifications 👨‍🎓
 
