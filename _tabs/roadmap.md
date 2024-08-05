@@ -3,9 +3,9 @@
 icon: fas fa-flag-checkered
 order: 4
 ---
-This section of the blog is designated as my roadmap to become a Pentester.
+This section of the blog is designated as **my roadmap to become a Pentester**.
 
-Last updated Jul 17, 2024.
+Last updated Aug 05, 2024.
 
 Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHAsWb).
 
@@ -26,7 +26,8 @@ Complete step-by-step guide [here](https://youtu.be/kVBHSHZJffk?si=RdXwICGAMqcHA
 | Offensive Python                                       | Hack4u       | Spanish  | Completed    | Apr 2024   |
 | Offensive Security Certified Expert (OSEP)             | OffSec       | English  | Completed    | Apr 2024   |
 | Certified Penetration Tester Specialist (CPTS)         | HTB Academy  | English  | Completed    | May 2024   |
-| Certified Bug Bounty Hunter (CBBH)                     | HTB Academy  | English  | In Progress  | -          |
+| Certified Bug Bounty Hunter (CBBH)                     | HTB Academy  | English  | Completed    | Aug 2024   |
+| Certified Web Exploitation Expert (CWEE)               | HTB Academy  | English  | In Progress  | -          |
 
 # More HTB 💚
 
