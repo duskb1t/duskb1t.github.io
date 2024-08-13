@@ -3,8 +3,16 @@
 icon: fas fa-info-circle
 order: 4
 ---
-I am a 20 yo cybersecurity enthusiast. Please, consider taking my private key:
+I am a 20 yo cybersecurity enthusiast. I like working out at the gym as well :D
 
-<img src="/assets/img/whoam1/key.png" alt="key.png" style="width:400px;">
+# Social Media
 
------END RSA PRIVATE KEY-----
+[YouTube](https://www.youtube.com/@duskb1t)
+
+[Instagram](https://www.instagram.com/duskb1t/)
+
+[Twitter](https://x.com/duskb1t)
+
+[GitHub](https://github.com/duskb1t)
+
+[LinkedIn](https://www.linkedin.com/in/duskb1t/)

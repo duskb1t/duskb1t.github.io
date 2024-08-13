@@ -39,4 +39,4 @@ Last updated Aug 12, 2024.
 
 | Course                                                 | Provider       | Language | Status       | Completion |
 |--------------------------------------------------------|----------------|----------|--------------|------------|
-| Assembly Crash Course                                  | Pwn College    | English  | Completed    | Aug 2024   |
+| Assembly Crash Course                                  | Pwn College    | English  | Completed    | Jul 2024   |
