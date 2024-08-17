@@ -5,12 +5,13 @@ order: 4
 ---
 This section of the blog is designated as **my roadmap to become a Pentester**.
 
-Last updated Aug 12, 2024.
+Last updated Aug 17, 2024.
 
 # Certifications 👨‍🎓
 
-* OSCP (Mar 20, 2024) ✅
-* OSEP (Jun 13, 2024) ✅
+* OSCP (Mar 20, 2024)
+* OSEP (Jun 13, 2024)
+* CPTS (Aug 14, 2024)
 
 # Courses ✍️
 
