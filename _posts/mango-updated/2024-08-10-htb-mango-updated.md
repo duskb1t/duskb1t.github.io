@@ -144,7 +144,7 @@ def exploit(target, user=None):
         'Content-Type': 'application/x-www-form-urlencoded',
         'Host': 'staging-order.mango.htb'
     }
-    url = 'http://staging-order.mango.htb/'
+    url = f'http://{target}/'
     wildcard = 1
 
     brute_status = log.progress(colored('Brute-force status', 'blue'))
