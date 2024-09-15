@@ -5,7 +5,7 @@ order: 4
 ---
 This section of the blog is designated as **my roadmap to become a Pentester**.
 
-Last updated Sep 06, 2024.
+Last updated Sep 16, 2024.
 
 # Certifications 👨‍🎓
 
@@ -25,7 +25,6 @@ Last updated Sep 06, 2024.
 | Certified Penetration Tester Specialist (CPTS)         | HTB Academy    | English  | Completed    | May 2024   |
 | Certified Bug Bounty Hunter (CBBH)                     | HTB Academy    | English  | Completed    | Aug 2024   |
 | Certified Web Exploitation Expert (CWEE)               | HTB Academy    | English  | In Progress  | -          |
-| Active Directory Penetration Tester Path               | HTB Academy    | English  | In Progress  | -          |
 
 # More HTB 💚
 
