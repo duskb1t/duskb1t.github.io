@@ -53,13 +53,14 @@ Last updated Dec 31, 2024.
 | Lab                                                 | Provider       | Language | Status       | Completion |
 |-----------------------------------------------------|----------------|----------|--------------|------------|
 | SQL Injection                                       | PortSwigger    | English  | Completed    | Dec 2024   |
+| Web Cache Poisoning                                 | PortSwigger    | English  | Completed    | Jan 2025   |
+| Web Cache Deception                                 | PortSwigger    | English  | Completed    | Jan 2025   |
 | Cross-Site Scripting                                | PortSwigger    | English  | In Progress  | -          |
 | Path Traversal                                      | PortSwigger    | English  | In Progress  | -          |
 | HTTP Host Header Attacks                            | PortSwigger    | English  | In Progress  | -          |
 | Access Control Vulnerabilities                      | PortSwigger    | English  | In Progress  | -          |
-| Web Cache Poisoning                                 | PortSwigger    | English  | In Progress  | -          |
 | Web LLM Attacks                                     | PortSwigger    | English  | In Progress  | -          |
-| Web Cache Deception                                 | PortSwigger    | English  | In Progress  | -          |
+
 
 ## Pwn College 🥷
 
