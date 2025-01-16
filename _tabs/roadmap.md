@@ -7,7 +7,7 @@ This section of the blog is designated as **my roadmap to become a Pentester**.
 
 **EDIT**: The same day I got my CWEE results back I started working as a Pentester!! <3
 
-Last updated Dec 31, 2024.
+Last updated Jan 17, 2025.
 
 ## Certifications 👨‍🎓
 
@@ -50,17 +50,21 @@ Last updated Dec 31, 2024.
 
 ## PortSwigger 🧡
 
-| Lab                                                 | Provider       | Language | Status       | Completion |
-|-----------------------------------------------------|----------------|----------|--------------|------------|
-| SQL Injection                                       | PortSwigger    | English  | Completed    | Dec 2024   |
-| Web Cache Poisoning                                 | PortSwigger    | English  | Completed    | Jan 2025   |
-| Web Cache Deception                                 | PortSwigger    | English  | Completed    | Jan 2025   |
-| Cross-Site Scripting                                | PortSwigger    | English  | In Progress  | -          |
-| Path Traversal                                      | PortSwigger    | English  | In Progress  | -          |
-| HTTP Host Header Attacks                            | PortSwigger    | English  | In Progress  | -          |
-| Access Control Vulnerabilities                      | PortSwigger    | English  | In Progress  | -          |
-| Web LLM Attacks                                     | PortSwigger    | English  | In Progress  | -          |
-
+| Lab                                                 | Provider       | Language | Status               | Completion |
+|-----------------------------------------------------|----------------|----------|----------------------|------------|
+| SQL Injection                                       | PortSwigger    | English  | Completed            | Dec 2024   |
+| Web Cache Poisoning                                 | PortSwigger    | English  | Completed            | Jan 2025   |
+| Web Cache Deception                                 | PortSwigger    | English  | Completed            | Jan 2025   |
+| Server-Side Template Injection                      | PortSwigger    | English  | Completed            | Jan 2025   |
+| Cross-Site Scripting                                | PortSwigger    | English  | Completed            | Jan 2025   |
+| Business Logic Vulnerabilities                      | PortSwigger    | English  | Completed            | Jan 2025   |
+| HTTP Host Header Attacks                            | PortSwigger    | English  | In Progress          | -          |
+| Prototype Pollution                                 | PortSwigger    | English  | In Progress          | -          |
+| DOM-based Vulnerabilities                           | PortSwigger    | English  | In Progress          | -          |
+| Path Traversal                                      | PortSwigger    | English  | In Progress          | -          |
+| File Upload Vulnerabilities                         | PortSwigger    | English  | In Progress          | -          |
+| Access Control Vulnerabilities                      | PortSwigger    | English  | In Progress          | -          |
+| Web LLM Attacks                                     | PortSwigger    | English  | In Progress          | -          |
 
 ## Pwn College 🥷
 
